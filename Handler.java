@@ -10,7 +10,7 @@ public class Handler implements Listener {
 	@EventHandler
 	public void join(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
-		p.sendMessage("Hellow Dear friend, welcome to Minecraftia!");
+		p.sendMessage("Hello Dear friend, welcome to Minecraftia!");
 
 	}
 }
